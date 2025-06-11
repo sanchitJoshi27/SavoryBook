@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F1224B22DF2622300C32245 /* SavoryBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1224B12DF2622300C32245 /* SavoryBookApp.swift */; };
+		9F1224B42DF2622300C32245 /* LandingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1224B32DF2622300C32245 /* LandingPageView.swift */; };
+		9F1224B62DF2622700C32245 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F1224B52DF2622700C32245 /* Assets.xcassets */; };
+		9F1224B92DF2622700C32245 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F1224B82DF2622700C32245 /* Preview Assets.xcassets */; };
+		9F1224BB2DF2622700C32245 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1224BA2DF2622700C32245 /* Persistence.swift */; };
+		9F1224BE2DF2622700C32245 /* SavoryBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F1224BC2DF2622700C32245 /* SavoryBook.xcdatamodeld */; };
+		9F1224C82DF2622800C32245 /* SavoryBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1224C72DF2622800C32245 /* SavoryBookTests.swift */; };
+		9F1224D22DF2622800C32245 /* SavoryBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1224D12DF2622800C32245 /* SavoryBookUITests.swift */; };
+		9F1224D42DF2622800C32245 /* SavoryBookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1224D32DF2622800C32245 /* SavoryBookUITestsLaunchTests.swift */; };
+		9F7C144C2DF39F2A007EAAAA /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C144B2DF39F2A007EAAAA /* Recipe.swift */; };
+		9F7C144E2DF39FA3007EAAAA /* RecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C144D2DF39FA3007EAAAA /* RecipeViewModel.swift */; };
+		9F7C14502DF3A1F5007EAAAA /* RecipePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C144F2DF3A1F5007EAAAA /* RecipePageView.swift */; };
+		9F7C14522DF3A22D007EAAAA /* RecipeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C14512DF3A22D007EAAAA /* RecipeCardView.swift */; };
+		9F7C14542DF3A27C007EAAAA /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C14532DF3A27C007EAAAA /* RecipeDetailView.swift */; };
+		9F7C14562DF7980D007EAAAA /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C14552DF7980C007EAAAA /* ImageCache.swift */; };
+		9F7C14582DF7989D007EAAAA /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C14572DF7989D007EAAAA /* ImageLoader.swift */; };
+		9F7C145A2DF79930007EAAAA /* AsyncCachedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C14592DF79930007EAAAA /* AsyncCachedImage.swift */; };
+		9FEB90732DF7B7CD00590A20 /* View+GradientText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEB90722DF7B7CC00590A20 /* View+GradientText.swift */; };
+		9FF269482DF93C2500947712 /* RecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C144D2DF39FA3007EAAAA /* RecipeViewModel.swift */; };
+		9FF2694A2DF93C6400947712 /* RecipeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF269492DF93C6400947712 /* RecipeViewModelTests.swift */; };
+		9FF2694C2DF9402E00947712 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C144B2DF39F2A007EAAAA /* Recipe.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F1224C42DF2622800C32245 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F1224A62DF2622300C32245 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F1224AD2DF2622300C32245;
+			remoteInfo = SavoryBook;
+		};
+		9F1224CE2DF2622800C32245 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F1224A62DF2622300C32245 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F1224AD2DF2622300C32245;
+			remoteInfo = SavoryBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F1224AE2DF2622300C32245 /* SavoryBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SavoryBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F1224B12DF2622300C32245 /* SavoryBookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavoryBookApp.swift; sourceTree = "<group>"; };
+		9F1224B32DF2622300C32245 /* LandingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageView.swift; sourceTree = "<group>"; };
+		9F1224B52DF2622700C32245 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F1224B82DF2622700C32245 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9F1224BA2DF2622700C32245 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		9F1224BD2DF2622700C32245 /* SavoryBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SavoryBook.xcdatamodel; sourceTree = "<group>"; };
+		9F1224C32DF2622800C32245 /* SavoryBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SavoryBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F1224C72DF2622800C32245 /* SavoryBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavoryBookTests.swift; sourceTree = "<group>"; };
+		9F1224CD2DF2622800C32245 /* SavoryBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SavoryBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F1224D12DF2622800C32245 /* SavoryBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavoryBookUITests.swift; sourceTree = "<group>"; };
+		9F1224D32DF2622800C32245 /* SavoryBookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavoryBookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9F7C144B2DF39F2A007EAAAA /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		9F7C144D2DF39FA3007EAAAA /* RecipeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewModel.swift; sourceTree = "<group>"; };
+		9F7C144F2DF3A1F5007EAAAA /* RecipePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipePageView.swift; sourceTree = "<group>"; };
+		9F7C14512DF3A22D007EAAAA /* RecipeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCardView.swift; sourceTree = "<group>"; };
+		9F7C14532DF3A27C007EAAAA /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		9F7C14552DF7980C007EAAAA /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		9F7C14572DF7989D007EAAAA /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		9F7C14592DF79930007EAAAA /* AsyncCachedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncCachedImage.swift; sourceTree = "<group>"; };
+		9FEB90722DF7B7CC00590A20 /* View+GradientText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+GradientText.swift"; sourceTree = "<group>"; };
+		9FF269492DF93C6400947712 /* RecipeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewModelTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F1224AB2DF2622300C32245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1224C02DF2622800C32245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1224CA2DF2622800C32245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F1224A52DF2622300C32245 = {
+			isa = PBXGroup;
+			children = (
+				9F1224B02DF2622300C32245 /* SavoryBook */,
+				9F1224C62DF2622800C32245 /* SavoryBookTests */,
+				9F1224D02DF2622800C32245 /* SavoryBookUITests */,
+				9F1224AF2DF2622300C32245 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F1224AF2DF2622300C32245 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F1224AE2DF2622300C32245 /* SavoryBook.app */,
+				9F1224C32DF2622800C32245 /* SavoryBookTests.xctest */,
+				9F1224CD2DF2622800C32245 /* SavoryBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F1224B02DF2622300C32245 /* SavoryBook */ = {
+			isa = PBXGroup;
+			children = (
+				9F1224B12DF2622300C32245 /* SavoryBookApp.swift */,
+				9F1224B32DF2622300C32245 /* LandingPageView.swift */,
+				9F1224B52DF2622700C32245 /* Assets.xcassets */,
+				9F1224BA2DF2622700C32245 /* Persistence.swift */,
+				9F1224BC2DF2622700C32245 /* SavoryBook.xcdatamodeld */,
+				9F1224B72DF2622700C32245 /* Preview Content */,
+				9F7C144B2DF39F2A007EAAAA /* Recipe.swift */,
+				9F7C144D2DF39FA3007EAAAA /* RecipeViewModel.swift */,
+				9F7C144F2DF3A1F5007EAAAA /* RecipePageView.swift */,
+				9F7C14512DF3A22D007EAAAA /* RecipeCardView.swift */,
+				9F7C14532DF3A27C007EAAAA /* RecipeDetailView.swift */,
+				9F7C14552DF7980C007EAAAA /* ImageCache.swift */,
+				9F7C14572DF7989D007EAAAA /* ImageLoader.swift */,
+				9F7C14592DF79930007EAAAA /* AsyncCachedImage.swift */,
+				9FEB90722DF7B7CC00590A20 /* View+GradientText.swift */,
+			);
+			path = SavoryBook;
+			sourceTree = "<group>";
+		};
+		9F1224B72DF2622700C32245 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9F1224B82DF2622700C32245 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9F1224C62DF2622800C32245 /* SavoryBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F1224C72DF2622800C32245 /* SavoryBookTests.swift */,
+				9FF269492DF93C6400947712 /* RecipeViewModelTests.swift */,
+			);
+			path = SavoryBookTests;
+			sourceTree = "<group>";
+		};
+		9F1224D02DF2622800C32245 /* SavoryBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F1224D12DF2622800C32245 /* SavoryBookUITests.swift */,
+				9F1224D32DF2622800C32245 /* SavoryBookUITestsLaunchTests.swift */,
+			);
+			path = SavoryBookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F1224AD2DF2622300C32245 /* SavoryBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F1224D72DF2622800C32245 /* Build configuration list for PBXNativeTarget "SavoryBook" */;
+			buildPhases = (
+				9F1224AA2DF2622300C32245 /* Sources */,
+				9F1224AB2DF2622300C32245 /* Frameworks */,
+				9F1224AC2DF2622300C32245 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SavoryBook;
+			productName = SavoryBook;
+			productReference = 9F1224AE2DF2622300C32245 /* SavoryBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F1224C22DF2622800C32245 /* SavoryBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F1224DA2DF2622800C32245 /* Build configuration list for PBXNativeTarget "SavoryBookTests" */;
+			buildPhases = (
+				9F1224BF2DF2622800C32245 /* Sources */,
+				9F1224C02DF2622800C32245 /* Frameworks */,
+				9F1224C12DF2622800C32245 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F1224C52DF2622800C32245 /* PBXTargetDependency */,
+			);
+			name = SavoryBookTests;
+			productName = SavoryBookTests;
+			productReference = 9F1224C32DF2622800C32245 /* SavoryBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F1224CC2DF2622800C32245 /* SavoryBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F1224DD2DF2622800C32245 /* Build configuration list for PBXNativeTarget "SavoryBookUITests" */;
+			buildPhases = (
+				9F1224C92DF2622800C32245 /* Sources */,
+				9F1224CA2DF2622800C32245 /* Frameworks */,
+				9F1224CB2DF2622800C32245 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F1224CF2DF2622800C32245 /* PBXTargetDependency */,
+			);
+			name = SavoryBookUITests;
+			productName = SavoryBookUITests;
+			productReference = 9F1224CD2DF2622800C32245 /* SavoryBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F1224A62DF2622300C32245 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					9F1224AD2DF2622300C32245 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					9F1224C22DF2622800C32245 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 9F1224AD2DF2622300C32245;
+					};
+					9F1224CC2DF2622800C32245 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 9F1224AD2DF2622300C32245;
+					};
+				};
+			};
+			buildConfigurationList = 9F1224A92DF2622300C32245 /* Build configuration list for PBXProject "SavoryBook" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F1224A52DF2622300C32245;
+			productRefGroup = 9F1224AF2DF2622300C32245 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F1224AD2DF2622300C32245 /* SavoryBook */,
+				9F1224C22DF2622800C32245 /* SavoryBookTests */,
+				9F1224CC2DF2622800C32245 /* SavoryBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F1224AC2DF2622300C32245 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1224B92DF2622700C32245 /* Preview Assets.xcassets in Resources */,
+				9F1224B62DF2622700C32245 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1224C12DF2622800C32245 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1224CB2DF2622800C32245 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F1224AA2DF2622300C32245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F7C14562DF7980D007EAAAA /* ImageCache.swift in Sources */,
+				9F1224BB2DF2622700C32245 /* Persistence.swift in Sources */,
+				9F7C14542DF3A27C007EAAAA /* RecipeDetailView.swift in Sources */,
+				9F7C14502DF3A1F5007EAAAA /* RecipePageView.swift in Sources */,
+				9F1224B42DF2622300C32245 /* LandingPageView.swift in Sources */,
+				9F7C14582DF7989D007EAAAA /* ImageLoader.swift in Sources */,
+				9F1224BE2DF2622700C32245 /* SavoryBook.xcdatamodeld in Sources */,
+				9F7C14522DF3A22D007EAAAA /* RecipeCardView.swift in Sources */,
+				9FEB90732DF7B7CD00590A20 /* View+GradientText.swift in Sources */,
+				9F1224B22DF2622300C32245 /* SavoryBookApp.swift in Sources */,
+				9F7C144E2DF39FA3007EAAAA /* RecipeViewModel.swift in Sources */,
+				9F7C145A2DF79930007EAAAA /* AsyncCachedImage.swift in Sources */,
+				9F7C144C2DF39F2A007EAAAA /* Recipe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1224BF2DF2622800C32245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FF269482DF93C2500947712 /* RecipeViewModel.swift in Sources */,
+				9FF2694A2DF93C6400947712 /* RecipeViewModelTests.swift in Sources */,
+				9F1224C82DF2622800C32245 /* SavoryBookTests.swift in Sources */,
+				9FF2694C2DF9402E00947712 /* Recipe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1224C92DF2622800C32245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1224D22DF2622800C32245 /* SavoryBookUITests.swift in Sources */,
+				9F1224D42DF2622800C32245 /* SavoryBookUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F1224C52DF2622800C32245 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F1224AD2DF2622300C32245 /* SavoryBook */;
+			targetProxy = 9F1224C42DF2622800C32245 /* PBXContainerItemProxy */;
+		};
+		9F1224CF2DF2622800C32245 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F1224AD2DF2622300C32245 /* SavoryBook */;
+			targetProxy = 9F1224CE2DF2622800C32245 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9F1224D52DF2622800C32245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F1224D62DF2622800C32245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F1224D82DF2622800C32245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SavoryBook/Preview Content\"";
+				DEVELOPMENT_TEAM = W4CJM4K4H9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sanchit.SavoryBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F1224D92DF2622800C32245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SavoryBook/Preview Content\"";
+				DEVELOPMENT_TEAM = W4CJM4K4H9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sanchit.SavoryBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9F1224DB2DF2622800C32245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W4CJM4K4H9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sanchit.SavoryBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SavoryBook.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SavoryBook";
+			};
+			name = Debug;
+		};
+		9F1224DC2DF2622800C32245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W4CJM4K4H9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sanchit.SavoryBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SavoryBook.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SavoryBook";
+			};
+			name = Release;
+		};
+		9F1224DE2DF2622800C32245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W4CJM4K4H9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sanchit.SavoryBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SavoryBook;
+			};
+			name = Debug;
+		};
+		9F1224DF2DF2622800C32245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W4CJM4K4H9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Sanchit.SavoryBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SavoryBook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F1224A92DF2622300C32245 /* Build configuration list for PBXProject "SavoryBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F1224D52DF2622800C32245 /* Debug */,
+				9F1224D62DF2622800C32245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F1224D72DF2622800C32245 /* Build configuration list for PBXNativeTarget "SavoryBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F1224D82DF2622800C32245 /* Debug */,
+				9F1224D92DF2622800C32245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F1224DA2DF2622800C32245 /* Build configuration list for PBXNativeTarget "SavoryBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F1224DB2DF2622800C32245 /* Debug */,
+				9F1224DC2DF2622800C32245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F1224DD2DF2622800C32245 /* Build configuration list for PBXNativeTarget "SavoryBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F1224DE2DF2622800C32245 /* Debug */,
+				9F1224DF2DF2622800C32245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9F1224BC2DF2622700C32245 /* SavoryBook.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9F1224BD2DF2622700C32245 /* SavoryBook.xcdatamodel */,
+			);
+			currentVersion = 9F1224BD2DF2622700C32245 /* SavoryBook.xcdatamodel */;
+			path = SavoryBook.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9F1224A62DF2622300C32245 /* Project object */;
+}
