@@ -8,6 +8,15 @@ It fetches recipe data from a remote API, supports image caching, and provides s
 ## Demo
 [Watch the demo](DemoAssets/SavoryBookDemo.mov)
 
+## App Screenshots
+
+<p align="center">
+  <img src="DemoAssets/LandingPage.png" width="180" alt="Home Screen"/>
+  <img src="DemoAssets/RecipePage.png" width="180" alt="Recipe Page"/>
+  <img src="DemoAssets/RecipeDetailPage.png" width="180" alt="Recipe Detail"/>
+  <img src="DemoAssets/RecipeSearch.png" width="180" alt="Recipe Search"/>
+  <img src="DemoAssets/RecipeFilter.png" width="180" alt="Recipe Filter"/>
+</p>
 
 ---
 
