@@ -6,7 +6,7 @@ It fetches recipe data from a remote API, supports image caching, and provides s
 ---
 
 ## Demo
-[[Watch the demo](DemoAssets/SavoryBookDemo.mp4)
+[Watch the demo](DemoAssets/SavoryBookDemo.mov)
 
 
 ---
